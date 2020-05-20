@@ -8,7 +8,7 @@ function Demo() {
 
 export default class App extends Component {
     componentDidMount() {
-        console.log(789)
+        console.log(7890)
     }
     
     render() {
