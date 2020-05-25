@@ -18,7 +18,7 @@ export default class App extends Component {
                 <Demo />
                 <Demo></Demo>
                 <Demo></Demo>
-                app
+                app2
             </div>
         )
     }
