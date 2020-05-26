@@ -10,19 +10,17 @@ function Demo() {
 
 export default class App extends Component {
     componentDidMount() {
-        console.log(7890)
+        console.log('App is mounted')
     }
     
     render() {
         return (
             <div>
-                <div></div>
                 <Demo />
-                <Demo></Demo>
-                <Demo></Demo>
-                app2
-                <App2></App2>
-                <Renders></Renders>
+                {/* <Demo></Demo> */}
+                {/* <Demo></Demo> */}
+                {/* <App2></App2> */}
+                {/* <Renders></Renders> */}
                 <Hoc></Hoc>
             </div>
         )
